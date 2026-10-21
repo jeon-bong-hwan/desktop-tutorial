@@ -1,0 +1,10 @@
+{
+  "name": "station-lifecycle",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8000 --bind 0.0.0.0",
+    "test": "node --test",
+    "build": "python3 tools/build.py"
+  }
+}
