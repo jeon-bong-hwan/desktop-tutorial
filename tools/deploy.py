@@ -22,7 +22,7 @@ with tempfile.TemporaryDirectory(prefix='station-pages-') as tmp:
     task_env['GIT_DIR'] = git('rev-parse', '--absolute-git-dir')
     git('read-tree', '--empty', env=task_env)
     (root / 'dist' / '.nojekyll').touch()
-    files = ['index.html', 'style.css', 'app.js', 'csv.js', 'data.js', 'initial-data.js', 'sync/status.json', 'sync/nts.json', 'sync/changes.json', '.nojekyll']
+    files = ['index.html', 'style.css', 'app.js', 'csv.js', 'statistics.js', 'data.js', 'initial-data.js', 'sync/status.json', 'sync/nts.json', 'sync/changes.json', '.nojekyll']
     subprocess.run(['git', '--git-dir', task_env['GIT_DIR'], '--work-tree', task_env['GIT_WORK_TREE'], 'add', '--', *files], cwd=root / 'dist', env=task_env, check=True)
     tree = git('write-tree', env=task_env)
     args = ['commit-tree', tree, '-m', 'Publish station lifecycle static website']
