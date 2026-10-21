@@ -48,9 +48,9 @@ function renderTypeCounts(){
  $('typeCountChart').replaceChildren();$('typeCountRows').replaceChildren();
  for(const g of groups){
   const row=el('div',undefined,'typeBarRow');const track=el('div',undefined,'typeBarTrack'),bar=el('div',undefined,'typeBar');bar.style.width=`${g.count/max*100}%`;track.append(bar);
-  row.append(el('span',g.kind==='일반대리점'?'일반대리점 (세종시)':g.kind),track,el('strong',`${g.count.toLocaleString()}건`));row.setAttribute('aria-label',`${g.kind} ${g.count.toLocaleString()}건`);$('typeCountChart').append(row);
+  row.append(el('span',g.kind),track,el('strong',`${g.count.toLocaleString()}건`));row.setAttribute('aria-label',`${g.kind} ${g.count.toLocaleString()}건`);$('typeCountChart').append(row);
   const tr=el('tr');tr.append(el('td',g.kind),el('td',g.count.toLocaleString()));$('typeCountRows').append(tr);
  }
- $('typeCountTotal').textContent=`${status==='all'?'전체 기록':status} 합계 ${groups.reduce((sum,g)=>sum+g.count,0).toLocaleString()}건 · 7개 종류`;
+ $('typeCountTotal').textContent=`${status==='all'?'전체 기록':status} 합계 ${groups.reduce((sum,g)=>sum+g.count,0).toLocaleString()}건 · ${groups.length}개 종류`;
 }
 $('typeCountStatus').onchange=renderTypeCounts;renderTypeCounts();
