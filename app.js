@@ -1,5 +1,5 @@
 import {setupStatistics} from './statistics.js';
-import {stages,sources} from './data.js';import {parseCSV,normalize,filterRows,decodeCSVBuffer} from './csv.js';
+import {stages,sources,industryCounts} from './data.js';import {parseCSV,normalize,filterRows,decodeCSVBuffer} from './csv.js';
 const $=id=>document.getElementById(id);let records=[],current=0;const size=20;let ntsResults=new Map();
 function displayedRecords(){return records.map(r=>{if(!r.id.startsWith('uploaded-'))return r;const tax=ntsResults.get(r.id);return {...r,status:tax?'국세청: '+tax.status:'국세청 조회 전',closed:tax?.closureDate||'미제공'};});}
 function refreshTaxFilters(){const selected=$('status').value;$('status').replaceChildren(new Option('모든 상태 / 변동',''));[...new Set(displayedRecords().map(r=>r.status))].sort().forEach(v=>$('status').add(new Option(v,v)));if([...$('status').options].some(o=>o.value===selected))$('status').value=selected;}
@@ -33,3 +33,17 @@ $('ntsClosedOnly').onchange=renderNTSRows;
 async function loadNTS(){try{let data=globalThis.STATION_NTS_STATUS;if(location.protocol!=='file:'){const r=await fetch('./sync/nts.json',{cache:'no-store'});if(!r.ok)throw Error('unavailable');data=await r.json();}if(!data)throw Error('unavailable');ntsResults=new Map((data.records||[]).map(r=>[r.id,r]));refreshTaxFilters();render();const last=data.lastSuccessAt?new Date(data.lastSuccessAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})+' (한국시간)':'없음';$('ntsStatus').textContent=`${data.message} | 마지막 성공: ${last}`;renderNTSRows();}catch{$('ntsStatus').textContent='국세청 연결 상태 확인 불가 · 최신 상태로 판단하지 마세요.';}}loadNTS();
 
 async function loadChanges(){try{let data=globalThis.STATION_CHANGES;if(location.protocol!=='file:'){const response=await fetch('./sync/changes.json',{cache:'no-store'});if(!response.ok)throw Error('unavailable');data=await response.json();}if(!data)throw Error('unavailable');$('changesStatus').textContent=data.lastComparedAt?`마지막 비교: ${new Date(data.lastComparedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})} (한국시간) · 해당 수집에서 전체 업종 변경 ${data.lastChangeCount}건`:'자동 수집 비교 전 · 현재 업로드 자료를 기준으로 대기 중';$('changesRows').replaceChildren();const events=(data.events||[]).filter(r=>r.industry==='주유소').slice(0,50);for(const row of events){const tr=el('tr');for(const v of [row.name,row.kind,row.previousStatus||'이전 자료 없음',row.status,row.closureDate||'미제공',new Date(row.detectedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})])tr.append(el('td',v));$('changesRows').append(tr);}if(!events.length){const td=el('td',data.lastComparedAt?'기록된 주유소 변경이 없습니다.':'아직 새 원본과 비교하지 않았습니다. 변경 없음으로 판정한 상태가 아닙니다.');td.colSpan=6;const tr=el('tr');tr.append(td);$('changesRows').append(tr);}}catch{$('changesStatus').textContent='변경 기록 확인 불가 · 변경 없음으로 판단하지 마세요.';}}loadChanges();
+
+function renderTypeCounts(){
+ const status=$('typeCountStatus').value;
+ const groups=industryCounts.map(g=>({kind:g.kind,count:status==='all'?g.total:g.statuses[status]||0}));
+ const max=Math.max(1,...groups.map(g=>g.count));
+ $('typeCountChart').replaceChildren();$('typeCountRows').replaceChildren();
+ for(const g of groups){
+  const row=el('div',undefined,'typeBarRow');const track=el('div',undefined,'typeBarTrack'),bar=el('div',undefined,'typeBar');bar.style.width=`${g.count/max*100}%`;track.append(bar);
+  row.append(el('span',g.kind),track,el('strong',`${g.count.toLocaleString()}건`));row.setAttribute('aria-label',`${g.kind} ${g.count.toLocaleString()}건`);$('typeCountChart').append(row);
+  const tr=el('tr');tr.append(el('td',g.kind),el('td',g.count.toLocaleString()));$('typeCountRows').append(tr);
+ }
+ $('typeCountTotal').textContent=`${status==='all'?'전체 기록':status} 합계 ${groups.reduce((sum,g)=>sum+g.count,0).toLocaleString()}건 · 7개 종류`;
+}
+$('typeCountStatus').onchange=renderTypeCounts;renderTypeCounts();
