@@ -1,5 +1,5 @@
 name: Query NTS business status
-run-name: NTS lookup and publish after environment configuration
+run-name: NTS lookup after target secret registration
 on:
   workflow_dispatch:
   push:
