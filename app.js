@@ -21,14 +21,19 @@ if(datasets.length)activate(0);else render();
 async function loadSyncStatus(){const target=$('syncStatus');try{let status=globalThis.STATION_SYNC_STATUS;if(location.protocol!=='file:'){const response=await fetch('./sync/status.json',{cache:'no-store'});if(!response.ok)throw Error('status unavailable');status=await response.json();}if(!status)throw Error('status unavailable');const date=v=>v?new Date(v).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})+' (한국시간)':'없음';const labels={'ok':'공식 원본 수집 성공','error':'수집 실패 · 이전 자료 유지','not-configured':'미연결 · 공식 CSV 주소 또는 API 설정 필요'};target.textContent=`${labels[status.status]||'상태 확인 필요'} | 마지막 시도: ${date(status.lastAttemptAt)} | 마지막 성공: ${date(status.lastSuccessAt)} | 원본 갱신시점 상한: ${status.sourceUpdatedThrough||'미확인'}`;}catch{target.textContent='연결 상태를 확인하지 못했습니다. 표시 중인 자료를 최신 자료로 판단하지 마세요.';}}$('refreshStatus').onclick=loadSyncStatus;loadSyncStatus();
 
 function renderNTSRows(){
- const all=[...ntsResults.values()];
- const rows=$('ntsClosedOnly').checked?all.filter(row=>/^\d{4}-?\d{2}-?\d{2}$/.test(String(row.closureDate||'').trim())&&String(row.closureDate).replaceAll('-','')!=='00000000'):all;
+ const all=[...ntsResults.values()],mode=$('ntsStateFilter').value;
+ const byId=new Map(datasets.flatMap(d=>d.rows.filter(r=>r['관리번호']?.startsWith('uploaded-')).map(r=>[r['관리번호'],r])));
+ const rows=all.filter(row=>mode==='all'||(mode==='exceptions'?row.statusCode!=='01':mode==='unknown'?!['01','02','03'].includes(row.statusCode):row.statusCode===mode)).filter(row=>!$('ntsClosedOnly').checked||(/^\d{4}-?\d{2}-?\d{2}$/.test(String(row.closureDate||'').trim())&&String(row.closureDate).replaceAll('-','')!=='00000000'));
  $('ntsRows').replaceChildren();
- for(const row of rows){const tr=el('tr');for(const value of [row.id,row.status,row.closureDate||'미제공'])tr.append(el('td',value));$('ntsRows').append(tr);}
+ for(const row of rows){
+  const station=byId.get(row.id),raw=String(row.closureDate||''),date=/^\d{8}$/.test(raw)?`${raw.slice(0,4)}-${raw.slice(4,6)}-${raw.slice(6)}`:raw;
+  const tr=el('tr');for(const value of [station?.['사업장명']||'상호 연결 미확인',station?.['소재지']||station?.['도로명주소']||'주소 미제공',row.status,date||'미제공'])tr.append(el('td',value));$('ntsRows').append(tr);
+ }
  $('ntsCount').textContent=`${rows.length.toLocaleString()} / ${all.length.toLocaleString()}건`;
- if(!rows.length){const tr=el('tr'),td=el('td',all.length?'폐업일이 제공된 항목이 없습니다.':'조회 결과 없음 · 사업자등록번호 연결자료 필요');td.colSpan=3;tr.append(td);$('ntsRows').append(tr);}
+ if(!rows.length){const tr=el('tr'),td=el('td',all.length?'선택한 조건에 해당하는 항목이 없습니다.':'조회 결과 없음 · 사업자등록번호 연결자료 필요');td.colSpan=4;tr.append(td);$('ntsRows').append(tr);}
 }
 $('ntsClosedOnly').onchange=renderNTSRows;
+$('ntsStateFilter').onchange=renderNTSRows;
 
 async function loadNTS(){try{let data=globalThis.STATION_NTS_STATUS;if(location.protocol!=='file:'){const r=await fetch('./sync/nts.json',{cache:'no-store'});if(!r.ok)throw Error('unavailable');data=await r.json();}if(!data)throw Error('unavailable');ntsResults=new Map((data.records||[]).map(r=>[r.id,r]));refreshTaxFilters();render();const last=data.lastSuccessAt?new Date(data.lastSuccessAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})+' (한국시간)':'없음';$('ntsStatus').textContent=`${data.message} | 마지막 성공: ${last}`;renderNTSRows();}catch{$('ntsStatus').textContent='국세청 연결 상태 확인 불가 · 최신 상태로 판단하지 마세요.';}}loadNTS();
 
