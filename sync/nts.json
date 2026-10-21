@@ -1,9 +1,4210 @@
 {
-  "status": "not-configured",
+  "status": "ok",
   "source": "국세청 사업자등록 상태조회",
   "scope": "세무상 상태; 주유소 인허가·실제 영업 여부와 별개",
-  "lastAttemptAt": "2026-10-21T06:48:07.453359+00:00",
-  "lastSuccessAt": null,
-  "records": [],
-  "message": "GitHub Secret 설정 필요: NTS_TARGETS_JSON"
+  "lastAttemptAt": "2026-10-21T06:50:37.299928+00:00",
+  "lastSuccessAt": "2026-10-21T06:50:37.299928+00:00",
+  "records": [
+    {
+      "id": "uploaded-20261021-00001",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00002",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00003",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00004",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00005",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00006",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00007",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00008",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00009",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00010",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00011",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00012",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00013",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00014",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00015",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00016",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00017",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00018",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00019",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00020",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00021",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00022",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00023",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00024",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00025",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00026",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00027",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00028",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00029",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00030",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00031",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00032",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00033",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00034",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00035",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00036",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00037",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00038",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00039",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00040",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00041",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00042",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00043",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00044",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00045",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00046",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00047",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00048",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00049",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00050",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00051",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00052",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00053",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00054",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00055",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00056",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00057",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00058",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00059",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00060",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00061",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00062",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00063",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00064",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00065",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00066",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00067",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00068",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00069",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00070",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00071",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00072",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00073",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00074",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00075",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00076",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00077",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00078",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00079",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00080",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00081",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00082",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00083",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00084",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00085",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00086",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00087",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00088",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00089",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00090",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00091",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00092",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00093",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00094",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00095",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00096",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00097",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00098",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00099",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00100",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00101",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00102",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00103",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00104",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00105",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00106",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00107",
+      "statusCode": "03",
+      "status": "폐업자",
+      "closureDate": "20260804"
+    },
+    {
+      "id": "uploaded-20261021-00108",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00111",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00112",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00113",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00114",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00115",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00116",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00117",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00118",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00119",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00120",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00121",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00122",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00123",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00124",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00125",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00126",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00127",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00128",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00129",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00130",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00131",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00132",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00133",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00134",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00135",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00136",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00137",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00138",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00139",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00140",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00141",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00142",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00143",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00144",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00145",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00146",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00147",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00148",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00149",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00150",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00151",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00152",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00153",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00154",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00155",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00156",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00157",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00158",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00159",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00160",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00161",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00162",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00163",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00164",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00165",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00166",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00167",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00168",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00169",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00170",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00171",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00172",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00173",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00174",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00175",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00176",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00177",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00178",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00179",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00180",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00181",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00182",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00183",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00184",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00185",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00186",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00187",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00188",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00189",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00190",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00191",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00192",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00193",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00194",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00195",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00196",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00197",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00198",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00199",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00200",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00201",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00202",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00203",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00204",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00205",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00206",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00207",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00208",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00209",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00210",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00211",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00212",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00213",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00214",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00215",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00216",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00217",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00218",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00220",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00221",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00222",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00223",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00224",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00225",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00226",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00227",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00228",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00229",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00230",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00231",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00232",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00233",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00234",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00235",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00236",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00237",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00238",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00239",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00240",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00241",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00242",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00243",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00244",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00246",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00247",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00248",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00249",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00250",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00251",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00252",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00253",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00254",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00255",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00256",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00257",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00258",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00259",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00260",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00261",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00262",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00263",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00264",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00265",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00266",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00267",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00268",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00269",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00270",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00271",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00272",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00273",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00274",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00275",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00276",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00277",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00278",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00279",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00280",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00281",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00282",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00283",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00284",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00285",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00286",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00287",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00288",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00289",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00290",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00291",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00292",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00293",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00294",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00295",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00296",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00297",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00298",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00299",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00300",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00301",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00302",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00303",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00304",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00305",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00306",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00307",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00308",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00309",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00310",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00320",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00321",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00322",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00323",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00324",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00325",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00326",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00327",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00328",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00329",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00330",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00331",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00332",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00333",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00334",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00335",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00336",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00337",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00338",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00339",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00340",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00341",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00342",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00343",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00344",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00345",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00346",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00347",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00348",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00349",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00350",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00351",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00352",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00353",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00354",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00355",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00356",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00357",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00358",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00359",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00360",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00361",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00362",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00363",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00364",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00365",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00366",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00367",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00368",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00369",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00370",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00371",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00372",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00373",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00374",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00375",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00376",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00377",
+      "statusCode": "03",
+      "status": "폐업자",
+      "closureDate": "20240630"
+    },
+    {
+      "id": "uploaded-20261021-00378",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00379",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00380",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00381",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00382",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00383",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00384",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00385",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00386",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00387",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00388",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00389",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00390",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00391",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00392",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00393",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00394",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00395",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00396",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00397",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00398",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00399",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00400",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00401",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00402",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00403",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00404",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00405",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00406",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00407",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00408",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00409",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00410",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00411",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00412",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00413",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00414",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00415",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00416",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00417",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00418",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00419",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00420",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00421",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00422",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00423",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00424",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00425",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00426",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00427",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00428",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00429",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00430",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00432",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00433",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00434",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00435",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00436",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00437",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00438",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00439",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00440",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00441",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00442",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00443",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00444",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00445",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00446",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00447",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00448",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00449",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00450",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00451",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00452",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00453",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00454",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00455",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00456",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00457",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00458",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00459",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00460",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00461",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00462",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00463",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00464",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00465",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00466",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00467",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00468",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00469",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00470",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00471",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00472",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00473",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00474",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00475",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00476",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00477",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00478",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00479",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00480",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00481",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00482",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00483",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00484",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00485",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00486",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00487",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00488",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00489",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00490",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00491",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00492",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00493",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00494",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00495",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00496",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00497",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00498",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00499",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00500",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00501",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00502",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00503",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00504",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00505",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00506",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00507",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00508",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00509",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00510",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00511",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00512",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00513",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00514",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00515",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00516",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00517",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00518",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00519",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00520",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00521",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00522",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00523",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00524",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00525",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00526",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00527",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00528",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00529",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00530",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00531",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00532",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00533",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00534",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00535",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00536",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00537",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00538",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00539",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00540",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00541",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00542",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00543",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00544",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00545",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00546",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00547",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00548",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00549",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00550",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00551",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00552",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00553",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00554",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00555",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00556",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00557",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00558",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00559",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00560",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00561",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00562",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00563",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00564",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00565",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00567",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00568",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00569",
+      "statusCode": "03",
+      "status": "폐업자",
+      "closureDate": "20260626"
+    },
+    {
+      "id": "uploaded-20261021-00570",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00571",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00572",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00573",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00574",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00575",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00576",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00577",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00578",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00579",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00580",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00581",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00582",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00583",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00584",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00585",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00586",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00587",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00588",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00589",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00590",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00591",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00592",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00593",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00594",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00595",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00596",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00597",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00598",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00599",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00600",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00601",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00602",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00603",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00604",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00605",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00606",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00607",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00608",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00609",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00610",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00611",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00612",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00613",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00614",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00615",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00616",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00617",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00618",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00619",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00620",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00621",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00622",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00623",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00624",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00625",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00626",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00629",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00630",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00631",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00632",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00633",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00634",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00635",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00636",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00637",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00638",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00639",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00640",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00641",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00642",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00643",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00644",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00645",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00646",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00647",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00648",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00649",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00650",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00651",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00652",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00653",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00654",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00655",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00656",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00657",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00658",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00659",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00660",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00661",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00662",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00663",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00664",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00665",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00666",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00667",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00668",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00669",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00670",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00671",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00672",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00673",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00674",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00675",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00676",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00677",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00678",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00679",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00680",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00681",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00682",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00683",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00684",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00685",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00686",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00687",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00688",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00689",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00690",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00691",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00692",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00693",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00694",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00695",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00696",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00697",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00698",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00699",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00700",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00701",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00702",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00703",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00704",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00705",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00706",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00707",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00708",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00709",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00710",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00714",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00715",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00716",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00717",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00718",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00719",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    },
+    {
+      "id": "uploaded-20261021-00720",
+      "statusCode": "01",
+      "status": "계속사업자",
+      "closureDate": null
+    }
+  ],
+  "message": "국세청 상태조회 성공. 원천기관 반영 시차가 있을 수 있습니다."
 }
