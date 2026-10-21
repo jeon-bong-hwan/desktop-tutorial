@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   refresh:
-    if: ${{ vars.STATION_API_URL != '' }}
+    if: ${{ vars.STATION_CSV_URL != '' || vars.STATION_API_URL != '' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -31,6 +31,7 @@ jobs:
         id: collect
         continue-on-error: true
         env:
+          STATION_CSV_URL: ${{ vars.STATION_CSV_URL }}
           STATION_API_URL: ${{ vars.STATION_API_URL }}
           STATION_API_KEY: ${{ secrets.STATION_API_KEY }}
         run: python3 tools/sync_data.py

@@ -4,5 +4,5 @@
   "sourcePage": "https://www.data.go.kr/data/15044961/fileData.do",
   "lastAttemptAt": null,
   "lastSuccessAt": null,
-  "message": "공식 API 주소·인증키 미설정. 현재는 사용자 업로드 자료입니다."
+  "message": "공식 CSV 다운로드 주소 미설정. 현재는 사용자 업로드 자료입니다."
 }
