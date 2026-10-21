@@ -14,6 +14,7 @@ html = html.replace('<link rel="stylesheet" href="style.css">', '<style>' + (roo
 html = html.replace('<script src="initial-data.js"></script>', '')
 script = 'globalThis.STATION_SYNC_STATUS=' + (root / 'sync/status.json').read_text().replace('<', '\\u003c') + ';\n'
 script += 'globalThis.STATION_NTS_STATUS=' + (root / 'sync/nts.json').read_text().replace('<', '\\u003c') + ';\n'
+script += 'globalThis.STATION_CHANGES=' + (root / 'sync/changes.json').read_text().replace('<', '\\u003c') + ';\n'
 script += (root / 'initial-data.js').read_text() + '\n'
 script += (root / 'data.js').read_text().replace('export const ', 'const ') + '\n'
 script += (root / 'csv.js').read_text().replace('export function ', 'function ') + '\n'

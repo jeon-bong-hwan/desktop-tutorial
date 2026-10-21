@@ -13,6 +13,8 @@ import re
 import sys
 import urllib.request
 import urllib.parse
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from change_tracker import index_rows, compare
 
 ROOT = Path(__file__).resolve().parents[1]
 DETAIL_URL = 'https://www.data.go.kr/data/15044961/fileData.do'
@@ -98,19 +100,22 @@ def main():
         text=path.read_text();prefix='globalThis.STATION_DATASETS='
         start=text.index(prefix)+len(prefix)
         datasets=json.loads(text[start:].strip().rstrip(';'))
-        columns=['관리번호','사업장명','영업상태명','상세영업상태명','업태구분명','도로명주소','지번주소','인허가일자','폐업일자','데이터갱신시점','최종수정시점']
+        columns=['개방자치단체코드','관리번호','사업장명','영업상태명','상세영업상태명','업태구분명','도로명주소','지번주소','인허가일자','폐업일자','데이터갱신시점','최종수정시점']
         projected=[{k:str(row.get(k) or '').strip() for k in columns} for row in rows]
-        ids=[r['관리번호'] for r in projected]
-        if any(not i for i in ids) or len(ids)!=len(set(ids)):
-            raise ValueError('Blank or duplicate management IDs; existing data retained.')
+        index_rows(projected)
         old_count=len(datasets[0]['rows'])
         if old_count and len(projected)<old_count*0.8:
             raise ValueError('Unexpected reduction exceeding 20%; manual source review required.')
+        changes=compare(datasets[0]['rows'],projected,attempt)
         updated=[r['데이터갱신시점'] for r in projected if r['데이터갱신시점']]
         status.update(status='ok',lastSuccessAt=attempt,rowCount=len(rows),sourceUpdatedThrough=max(updated) if updated else None,message='Official source snapshot refreshed; not a real-time operation guarantee.')
         datasets[0]={'label':'석유판매업 인허가 · 공식 원본 정기 갱신','rows':projected,'note':'공식 원본 정기 수집 자료입니다. 실시간 영업 여부를 보증하지 않습니다. 원본 갱신시점과 마지막 수집시각을 구분해 확인하세요.','sourcePage':DETAIL_URL}
         output='// Official API snapshot; authentication values are never included.\n'+prefix+json.dumps(datasets,ensure_ascii=False).replace('<','\\u003c')+';\n'
         temp=path.with_suffix('.tmp');temp.write_text(output);temp.replace(path)
+        history_path=ROOT/'sync/changes.json'
+        history=json.loads(history_path.read_text()) if history_path.exists() else {'events':[]}
+        history.update(lastComparedAt=attempt,lastChangeCount=len(changes),events=(changes+history.get('events',[]))[:2000])
+        history_path.write_text(json.dumps(history,ensure_ascii=False,indent=2)+'\n')
         status_file(status)
         print('Refreshed',len(rows),'licensing records.')
         return 0
