@@ -8,10 +8,12 @@ dist.mkdir(exist_ok=True)
 assets = ['index.html', 'style.css', 'app.js', 'csv.js', 'data.js', 'initial-data.js']
 for name in assets:
     shutil.copy2(root / name, dist / name)
+shutil.copytree(root / 'sync', dist / 'sync', dirs_exist_ok=True)
 html = (root / 'index.html').read_text()
 html = html.replace('<link rel="stylesheet" href="style.css">', '<style>' + (root / 'style.css').read_text() + '</style>')
 html = html.replace('<script src="initial-data.js"></script>', '')
-script = (root / 'initial-data.js').read_text() + '\n'
+script = 'globalThis.STATION_SYNC_STATUS=' + (root / 'sync/status.json').read_text().replace('<', '\\u003c') + ';\n'
+script += (root / 'initial-data.js').read_text() + '\n'
 script += (root / 'data.js').read_text().replace('export const ', 'const ') + '\n'
 script += (root / 'csv.js').read_text().replace('export function ', 'function ') + '\n'
 script += (root / 'app.js').read_text().split('\n', 1)[1]
