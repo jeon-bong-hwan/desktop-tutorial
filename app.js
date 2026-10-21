@@ -1,5 +1,5 @@
-import {setupStatistics} from './statistics.js';
-import {stages,sources} from './data.js';import {parseCSV,normalize,filterRows,decodeCSVBuffer} from './csv.js';
+import {setupStatistics} from './statistics.js?v=8f3419da6a56';
+import {stages,sources} from './data.js?v=8f3419da6a56';import {parseCSV,normalize,filterRows,decodeCSVBuffer} from './csv.js?v=8f3419da6a56';
 const $=id=>document.getElementById(id);let records=[],current=0;const size=20;
 function el(tag,text,className){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(className)n.className=className;return n;}
 function selectStage(index){[...$('steps').children].forEach((n,i)=>{n.classList.toggle('active',i===index);n.setAttribute('aria-pressed',String(i===index));});const [name,num,title,agency,process,fields,source]=stages[index];$('detail').replaceChildren(el('div',`STEP ${num} / ${name}`,'eyebrow'),el('h3',title));for(const [label,value] of [['담당기관',agency],['주요 절차',process],['수집할 데이터',fields],['확인 경로',source]]){const p=el('p');p.append(el('strong',label+' '),el('span',value));$('detail').append(p);}}
