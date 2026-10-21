@@ -7,3 +7,9 @@ export function parseCSV(text) {
 }
 export function normalize(r){const event=Boolean(r['변동사유발생연월일']);return {name:r['사업장명']||r['업체명'],status:event?`변동: ${r['구분']||'미제공'}`:r['영업상태명']||r['상세영업상태명']||'미제공',detail:r['상세영업상태명']||'미제공',industry:r['업태구분명']||r['판매업종류']||'미제공',id:r['관리번호']||'미제공',updated:r['데이터갱신시점']||r['최종수정시점']||'미제공',address:r['도로명전체주소']||r['소재지전체주소']||r['도로명주소']||r['지번주소']||r['소재지']||'미제공',permit:r['인허가일자']||'미제공',closed:r['폐업일자']||'미제공',eventDate:r['변동사유발생연월일']||'해당 없음'};}
 export function filterRows(rows,query,status){return rows.filter(r=>(!status||r.status===status)&&`${r.name} ${r.address} ${r.id}`.toLocaleLowerCase().includes(query.trim().toLocaleLowerCase()));}
+
+export function decodeCSVBuffer(buffer,preference='auto'){
+ const encodings=preference==='auto'?['utf-8','euc-kr']:[preference];
+ for(const encoding of encodings){try{return {text:new TextDecoder(encoding,{fatal:true}).decode(buffer),encoding};}catch(error){if(!(error instanceof TypeError))throw error;}}
+ throw new Error('선택한 인코딩으로 읽을 수 없습니다. 자동 감지 또는 파일의 실제 인코딩을 선택하세요.');
+}
