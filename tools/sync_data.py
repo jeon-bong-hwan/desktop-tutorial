@@ -100,6 +100,8 @@ def main():
         text=path.read_text();prefix='globalThis.STATION_DATASETS='
         start=text.index(prefix)+len(prefix)
         datasets=json.loads(text[start:].strip().rstrip(';'))
+        if datasets[0].get('kind') == 'uploaded-registry':
+            raise ValueError('User-supplied latest registry must not be overwritten by a licensing snapshot.')
         columns=['개방자치단체코드','관리번호','사업장명','영업상태명','상세영업상태명','업태구분명','도로명주소','지번주소','인허가일자','폐업일자','데이터갱신시점','최종수정시점']
         projected=[{k:str(row.get(k) or '').strip() for k in columns} for row in rows]
         index_rows(projected)
