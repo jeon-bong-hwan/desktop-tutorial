@@ -41,7 +41,8 @@ def main():
     status={**previous,'lastAttemptAt':now,'source':'국세청 사업자등록 상태조회','scope':'세무상 상태; 주유소 인허가·실제 영업 여부와 별개'}
     try:
         if not key or not raw:
-            status.update(status='not-configured',message='인증키·사업자등록번호 연결자료 필요')
+            missing=[name for name,value in [('NTS_API_KEY',key),('NTS_TARGETS_JSON',raw)] if not value]
+            status.update(status='not-configured',message='GitHub Secret 설정 필요: '+', '.join(missing))
             code=2
         else:
             targets=parse_targets(raw);records=lookup(targets,key)
