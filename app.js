@@ -22,6 +22,8 @@ async function loadSyncStatus(){const target=$('syncStatus');try{let status=glob
 
 function renderNTSRows(){
  const all=[...ntsResults.values()],mode=$('ntsStateFilter').value;
+ const unknown=all.filter(row=>!['01','02','03'].includes(row.statusCode)).length;
+ $('ntsUnknownNotice').textContent=unknown?`해당 ${unknown.toLocaleString()}건은 원본 사업자번호를 다시 확인해야 합니다.`:'미확인 항목은 원본 사업자번호를 다시 확인해야 합니다.';
  const byId=new Map(datasets.flatMap(d=>d.rows.filter(r=>r['관리번호']?.startsWith('uploaded-')).map(r=>[r['관리번호'],r])));
  const rows=all.filter(row=>mode==='all'||(mode==='exceptions'?row.statusCode!=='01':mode==='unknown'?!['01','02','03'].includes(row.statusCode):row.statusCode===mode)).filter(row=>!$('ntsClosedOnly').checked||(/^\d{4}-?\d{2}-?\d{2}$/.test(String(row.closureDate||'').trim())&&String(row.closureDate).replaceAll('-','')!=='00000000'));
  $('ntsRows').replaceChildren();
