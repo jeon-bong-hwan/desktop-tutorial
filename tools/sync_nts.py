@@ -1,22 +1,32 @@
 """Server-side NTS tax-status lookup; credentials and business numbers stay private."""
 from pathlib import Path
 from datetime import datetime, timezone
-import json, os, re, sys
+import json, os, re, sys, hashlib
 import urllib.parse, urllib.request
 
 ROOT=Path(__file__).resolve().parents[1]
 ENDPOINT='https://api.odcloud.kr/api/nts-businessman/v1/status'
 
-def parse_targets(raw):
+def parse_targets(raw,limit=1000):
     targets=json.loads(raw)
-    if not isinstance(targets,list) or not targets or len(targets)>1000:
-        raise ValueError('Pilot lookup needs 1-1000 targets.')
+    if not isinstance(targets,list) or not targets or len(targets)>limit:
+        raise ValueError('Target count exceeds the configured limit.')
     seen=set()
     for t in targets:
         if not isinstance(t,dict) or not re.fullmatch(r'[0-9]{10}',t.get('businessNumber','')) or not isinstance(t.get('id'),str) or not t['id'] or t['id'] in seen:
             raise ValueError('Each target needs a unique id and 10-digit businessNumber.')
         seen.add(t['id'])
     return targets
+
+def load_targets(raw):
+    pilot=parse_targets(raw)
+    encrypted=ROOT/'tools/nts-targets.enc'
+    if not encrypted.exists():return pilot
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+    canonical=json.dumps(pilot,sort_keys=True,separators=(',',':')).encode()
+    key=hashlib.sha256(b'station-nts-targets-v1\0'+canonical).digest()
+    payload=encrypted.read_bytes()
+    return parse_targets(AESGCM(key).decrypt(payload[:12],payload[12:],b'station-nts-targets-v1').decode(),limit=20000)
 
 def lookup(targets,key,opener=urllib.request.urlopen):
     numbers=list(dict.fromkeys(t['businessNumber'] for t in targets));results={}
@@ -45,7 +55,7 @@ def main():
             status.update(status='not-configured',message='GitHub Secret 설정 필요: '+', '.join(missing))
             code=2
         else:
-            targets=parse_targets(raw);records=lookup(targets,key)
+            targets=load_targets(raw);records=lookup(targets,key)
             status.update(status='ok',records=records,lastSuccessAt=now,message='국세청 상태조회 성공. 원천기관 반영 시차가 있을 수 있습니다.')
             code=0
     except Exception as exc:
