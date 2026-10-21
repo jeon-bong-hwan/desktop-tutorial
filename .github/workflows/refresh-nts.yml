@@ -1,6 +1,10 @@
 name: Query NTS business status
 on:
   workflow_dispatch:
+  push:
+    branches: [codex/station-workspace]
+    paths:
+      - .github/workflows/refresh-nts.yml
   schedule:
     - cron: '43 * * * *'
 permissions:
@@ -12,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   nts:
-    if: ${{ github.event_name == 'workflow_dispatch' || vars.NTS_SYNC_ENABLED == 'true' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'push' || vars.NTS_SYNC_ENABLED == 'true' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
